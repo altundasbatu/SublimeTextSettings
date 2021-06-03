@@ -1,0 +1,9 @@
+{
+	"panel_background_color": "$background_color",
+	"theme": "user",
+	"user_theme_colors":
+	{
+		"background": "#000000",
+		"foreground": "#00ff00"
+	}
+}

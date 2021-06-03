@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+/**
+${2: * @brief      ${1:unnamed}.}
+ *
+ * @copyright  Copyright (C) Batuhan Altundas - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and Confidential.
+ * @author 	   Batuhan Altundas
+ * @date 	   ${3:Month} 2020
+ */
+${4:}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>license</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+	<description>License information with Doxy Support</description>
+</snippet>

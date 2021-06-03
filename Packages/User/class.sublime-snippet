@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+class ${1:name}
+{
+public:
+	${1:name}(/* args */); // Constructor
+	~${1:name}(); // Destructor
+	${1:name}(const ${1:name} &other); // Copy Constructor
+	${1:name}(${1:name} &&other); // Move Constructor
+	${1:name}& operator=(const ${1:name} &other); // Copy Operator
+	${1:name}& operator=(${1:name} &&other); // Move Operator
+	${4:}
+private:
+	${5:/* data */}
+
+}; // ${1:name}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+    <description>Class Snippet</description>
+</snippet>
